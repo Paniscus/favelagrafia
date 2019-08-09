@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/hamgurger.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <title>FAVELAGRAFIA</title>
+</head>
+
+<body>
+    <!-- Paginação -->
+    <nav class="pagination" id="pagination">
+        <ul>
+            <li>
+                <a href="#home" class="scroll-link novaClasse" data-text="home">&#x25CF;</a>
+            </li>
+            <li>
+                <a href="#sobre" class="scroll-link" data-text="sobre">&#x25CF;</a>
+            </li>
+            <li>
+                <a href="#fotografos" class="scroll-link" data-text="fotografos">&#x25CF;</a>
+            </li>
+            <li>
+                <a href="#talentos" class="scroll-link" data-text="talentos">&#x25CF;</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header>
+        <!-- tag da prefeitura -->
+        <div class="prefeitura-do-rio-apresenta">
+            <p>
+                Prefeitura do Rio de Janeiro e Secretaria Municipal de Cultura, Lei Municipal de Incentivo à Cultura – Lei do ISS apresentam:
+            </p>
+        </div>
+        <!-- navegação topo -->
+        <nav class="navTop" id="navTop">
+            <!-- LOGO -->
+            <div class="navItem" id="logo">
+                <a href="#"><img src="images/logo.png" alt="Logo do projeto favelagrafia"></a>
+            </div>
+            <!-- Link da 1° Edição -->
+            <div class="navItem" id="edicao-1">
+                <a href="http://www.favelagrafia.com.br/2016/home"><button>favelagrafia 1° edição</button></a>
+            </div>
+            <!-- Social -->
+            <div class="navItem" id="social">
+                <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+            </div>
+            <!-- Tradução -->
+            <div class="navItem" id="traducao">
+                <p>|</p>
+                <a href="#">en</a>
+            </div>
+            <!-- Botão Menu Hamburger -->
+            <button class="hamburger hamburger--emphatic" type="button" id="hamburger">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+            <!-- Container Menu Overlay  -->
+            <nav id="OverlayNav" class="overlay">
+                <!-- Content do Overlay -->
+                <div class="overlay-content">
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#sobre">sobre o projeto</a></li>
+                        <li><a href="#fotografos">fotógrafos</a></li>
+                        <li><a href="#talentos">talentos relatados</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+        <!-- Video background -->
+        <video class="Header-bg" autoplay="true" loop="true" muted="true">
+              <source src="movies/andeersom.mp4" type="video/mp4">
+        </video>
+    </header>
+
+    <!-- sections -->
+    <main id="main-content">
+        <!-- Home-->
+        <section id="home"></section>
+        <!-- Sobre -->
+        <section class="sobre-o-projeto" id="sobre">
+            <div class="sobre-content">
+                <h1 data-aos="fade-right">sobre o projeto</h1>
+                <p data-aos="fade-left">
+                    O Projeto Favelagrafia está trazendo um novo olhar sobre as favelas cariocas. Uma nova perspectiva, em que as favelas são representadas por quem mais entende delas: seus moradores. Nove fotógrafos, cheios de talentos e sonhos, apaixonados pela arte da
+                    fotografia e, principalmente, pelas comunidades onde moram.
+                </p>
+                <p data-aos="fade-up" data-aos-duration="700" class="bold">
+                    Lançado em 2016, o objetivo do projeto é recriar o olhar da cidade sobre a favela, mostrando que ela não é sinônimo de tráfico, arma e perigo. É potência, talento, arte e criatividade.
+                </p>
+                <h1 data-aos="fade-right">favelagrafia 2.0</h1>
+                <p data-aos="fade-left">
+                    Na segunda fase do Favelagrafia, os nove fotógrafos do projeto retratam os talentos das favelas cariocas ligados à música, dança, artes plásticas, teatro, performance, moda, literatura. O que não faltam nas favelas da Cidade são talentos potentes e histórias
+                    de arte e de vida que merecem ser contadas. Histórias que já foram representadas em forma de fotografia e, nesta segunda fase, em foto e vídeo.
+                </p>
+                <h1 data-aos="fade-right">nbs soma</h1>
+                <p data-aos="fade-left">A NBS SoMa acredita que a relevância das marcas está relacionada à sua capacidade de transformar a vida das pessoas e que as favelas e periferias brasileiras são territórios urbanos pujantes, repletos de talentos e de oportunidades de
+                    transformação.
+                </p>
+                <p data-aos="fade-up" data-aos-duration="700" class="bold">
+                    Nossa proposta é trazer as marcas para esta reflexão e, mais do que isso, para a ação em prol desses talentos, através de projetos de impacto positivo.
+                </p>
+            </div>
+        </section>
+        <!-- Fotografos -->
+        <section class="fotografos" id="fotografos">
+            <p>fotógrafos</p>
+            <ul>
+                <li data-aos="fade-up" data-aos-duration="3000" rel="um">
+                    <a href="#" data-text='andersom&#160;valentim'>andersom valentim</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="2800" rel="dois">
+                    <a href="#" data-text='elena&#160;paulinho'>elena paulinho</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="2600" rel="tres">
+                    <a href="#" data-text='jéssica&#160;higino'>jéssica higino</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="2400" rel="quatro">
+                    <a href="#" data-text='josiane&#160;santana'>josiane santana</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="2200" rel="cinco">
+                    <a href="#" data-text='joyce&#160;marques'>joyce marques</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="2000" rel="seis">
+                    <a href="#" data-text='magno&#160;neves'>magno neves</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="1800" rel="sete">
+                    <a href="#" data-text='omar&#160;britto'>omar britto</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="1600" rel="oito">
+                    <a href="#" data-text='rafael&#160;gomes'>rafael gomes</a>
+                </li>
+                <li data-aos="fade-up" data-aos-duration="1400" rel="nove">
+                    <a href="#" data-text='saulo&#160;nicolai'>saulo nicolai</a>
+                </li>
+            </ul>
+        </section>
+        <!-- Talentos -->
+        <section class="talentos" id="talentos">
+            <div class="talentos-container">
+                <div data-aos="flip-left" data-aos-duration="910" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/ana-david-cantora.png">
+                    <div class="overlayTalento verde"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" data-aos-duration="900" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/ana-dutra-performer.png">
+                    <div class="overlayTalento azul"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/débora-sá-poetiza-2.png">
+                    <div class="overlayTalento vermelho"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/débora-sá-poetiza-3.png">
+                    <div class="overlayTalento verde"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/débora-sá-poetiza.png">
+                    <div class="overlayTalento azul"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/grace-ramos-cantora-2.png">
+                    <div class="overlayTalento vermelho"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/grace-ramos-cantora.png">
+                    <div class="overlayTalento verde"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/jana-lopes-atriz-2.png">
+                    <div class="overlayTalento azul"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/jana-lopes-atriz-3.png">
+                    <div class="overlayTalento vermelho"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/jana-lopes-atriz.png">
+                    <div class="overlayTalento verde"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/marcele-oliveira-escritora-2.png">
+                    <div class="overlayTalento azul"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/marcele-oliveira-escritora-3.png">
+                    <div class="overlayTalento vermelho"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+                <div data-aos="flip-left" class="box-talento">
+                    <img src="images/talentos/talentos-tumb/marcele-oliveira-escritora.png">
+                    <div class="overlayTalento verde"></div>
+                    <h4>Pessoa</h4>
+                    <p>talento</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="LogoPatrocinio">
+            <a href="#"><img src="images/footer/favelagrafia-logo.png"></a>
+            <a href="#"><img src="images/footer/prefeitura-logo.png"></a>
+            <a href="#"><img src="images/footer/soma-logo.png"></a>
+            <a href="#"><img src="images/footer/uber-logo.png"></a>
+            <a href="#"><img src="images/footer/isi-logo.png"></a>
+        </div>
+        <div class="desenvolvimento">
+            <p>&#9400; 2019 favelagrafia</p>
+            <a href="#">
+                <p>site design tundrastudies.com</p>
+            </a>
+            <a href="#">
+                <p>developer cortexvisual</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+<!-- Chama biblioteca query -->
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+<!-- Chama biblioteca AOS pra animação -->
+
+<script type="text/javascript" src="node_modules/aos/dist/aos.js"></script>
+
+<!-- Fotografos background -->
+
+<script type="text/javascript">
+    $('ul li').hover(function() {
+
+        $('#fotografos').removeClass().addClass($(this).attr('rel'));
+
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+</script>
+
+<!-- Overlay script -->
+<script>
+    var OverlayNav = document.getElementById("OverlayNav");
+
+    OverlayNav.addEventListener('click', function() {
+        (this.style.display = 'none');
+        document.getElementById("hamburger").classList.remove('is-active');
+    });
+
+    document.getElementById("hamburger").addEventListener("click", function() {
+
+        var status = OverlayNav.style.display;
+
+        if (status == 'block') {
+            OverlayNav.style.display = 'none';
+        } else {
+            OverlayNav.style.display = 'block';
+        }
+
+    });
+</script>
+
+<!-- Hamburger Script-->
+<script>
+    var forEach = function(t, o, r) {
+        if ("[object Object]" === Object.prototype.toString.call(t))
+            for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+        else
+            for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
+    };
+
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+        forEach(hamburgers, function(hamburger) {
+            hamburger.addEventListener("click", function() {
+                this.classList.toggle("is-active");
+            }, false);
+        });
+    }
+</script>
+
+<!-- Paginação -->
+
+<script type="text/javascript">
+    var className = "scroll-link";
+    var links = document.getElementsByClassName(className);
+    var flag = true;
+
+    var prevScrollposition = window.pageYOffset;
+
+    window.onscroll = function() {
+        var currentScrollPosition = window.pageYOffset;
+        if (flag) {
+            var sections = document.querySelectorAll("#main-content > section");
+
+            for (var x = 0; x < sections.length; x++) {
+                var target = sections[x].getBoundingClientRect().top;
+                if (target >= 0 && target <= window.innerHeight / 2) {
+
+                    var ativo = document.querySelector("a.novaClasse");
+                    if (ativo) {
+                        ativo.classList.remove("novaClasse");
+                    }
+
+                    document.querySelectorAll("a.scroll-link")[x].classList.add("novaClasse");
+                }
+            }
+        }
+        // Esconde navTop qualdo escrollar pra baixo, mostra quando escrollar pra cima
+        if (prevScrollposition > currentScrollPosition) {
+            document.getElementById("navTop").style.top = "50px";
+        } else {
+            document.getElementById("navTop").style.top = "-100px";
+        }
+        prevScrollposition = currentScrollPosition;
+    }
+
+    function scroll(e) {
+
+        flag = false;
+
+        for (i = 0; i <= links.length; i++) {
+            if (links[i]) {
+                links[i].className = className;
+            }
+        }
+        e.target.className = `${className} novaClasse`;
+        //console.log(e.target.className);
+        e.preventDefault();
+        var id = this.getAttribute('href').replace('#', '');
+        var target = document.getElementById(id).getBoundingClientRect().top;
+        animateScroll(target);
+    }
+
+    function animateScroll(targetHeight) {
+        targetHeight = document.body.scrollHeight - window.innerHeight > targetHeight + scrollY ?
+            targetHeight : document.body.scrollHeight - window.innerHeight;
+        var initialPosition = window.scrollY;
+        var SCROLL_DURATION = 30;
+        var step_x = Math.PI / SCROLL_DURATION;
+        var step_count = 0;
+        requestAnimationFrame(step);
+
+        function step() {
+            if (step_count < SCROLL_DURATION) {
+                requestAnimationFrame(step);
+                step_count++;
+                window.scrollTo(0, initialPosition + targetHeight * 0.25 * Math.pow((1 - Math.cos(step_x * step_count)), 2));
+            } else {
+                flag = true;
+            }
+        }
+    }
+</script>
+
+<!-- Biblioteca AOS de animção -->
+
+<script type="text/javascript">
+    AOS.init();
+</script>
+
+</html>
